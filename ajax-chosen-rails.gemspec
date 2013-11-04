@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = AjaxChosen::Rails::VERSION
 
-  gem.add_dependency "railties"
+  gem.add_dependency "railties", "~> 4.0"
   gem.add_dependency "thor"
   gem.add_dependency "chosen-rails_ffcrm"
   gem.add_development_dependency "bundler"
