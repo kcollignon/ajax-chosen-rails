@@ -2,11 +2,11 @@
 require File.expand_path('../lib/ajax-chosen-rails/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Nathan Broadbent"]
-  gem.email         = ["nathan.f77@gmail.com"]
+  gem.authors       = ["Kevin Collignon"]
+  gem.email         = ["kevin@kevincollignon.com"]
   gem.description   = %q{Chosen is a javascript library of select box enhancer for jQuery and Protoype. This gem integrates Ajax-Chosen with Rails asset pipeline for ease of use.}
   gem.summary       = %q{Integrate Ajax-Chosen javascript library with Rails asset pipeline}
-  gem.homepage      = "https://github.com/fatfreecrm/ajax-chosen-rails"
+  gem.homepage      = "https://github.com/kcollignon/ajax-chosen-rails"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
